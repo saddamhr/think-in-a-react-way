@@ -1,10 +1,11 @@
-import React from 'react';
-import Clock from './components/Clock';
+import Form from './components/Form';
 
-const App = () => (
-    <div>
-        <Clock local="bn-BD" />
-    </div>
-);
+function App() {
+    return (
+        <div>
+            <Form />
+        </div>
+    );
+}
 
 export default App;
